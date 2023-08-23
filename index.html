@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro Component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="left">
+        <div class="content">
+          <h1 id="title">Learn to code by watching others</h1>
+          <p id="subtitle">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tuturials is great, but understanding how developers think
+            invaluable.
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="top">
+          <h4>
+            <b> Try it free 7 days </b>
+            <span id="destaque">then $20/mo. thereafter</span>
+          </h4>
+        </div>
+        <div class="card2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="80px"
+            height="80px"
+            viewBox="0 0 24 24"
+            style="fill: hsl(154, 59%, 51%); transform: ; msfilter: "
+          >
+            <path
+              d="m10.933 13.519-2.226-2.226-1.414 1.414 3.774 3.774 5.702-6.84-1.538-1.282z"
+            ></path>
+            <path
+              d="M19 3H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zM5 19V5h14l.002 14H5z"
+            ></path>
+          </svg>
+          <h1 id="success">Congrats, you have been registred.</h1>
+          <button class="ok" onclick="back()">Ok</button>
+        </div>
+        <div class="forms">
+          <input id="inpt-name" type="text" placeholder="Name" />
+          <img
+            id="icon1"
+            src="icon-error.svg"
+            width="30px"
+            height="30px"
+            alt=""
+          />
+          <input id="inpt-last" type="text" placeholder="Last Name" />
+          <img
+            id="icon2"
+            src="icon-error.svg"
+            width="30px"
+            height="30px"
+            alt=""
+          />
+          <input id="inpt-email" type="email" placeholder="Email Address" />
+          <img
+            id="icon3"
+            src="icon-error.svg"
+            width="30px"
+            height="30px"
+            alt=""
+          />
+          <input id="inpt-pass" type="password" placeholder="Password" />
+          <img
+            id="icon4"
+            src="icon-error.svg"
+            width="30px"
+            height="30px"
+            alt=""
+          />
+          <button onclick="validacao()">Claim your free trial</button>
+          <p id="endd">
+            By clicking the button, you are agreeing to our
+            <span id="destaque2">Terms and Service</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -93,7 +93,7 @@ body {
 #success {
   text-transform: uppercase;
   color: hsl(154, 59%, 51%);
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 .forms {
@@ -251,5 +251,41 @@ img {
 @media (min-width: 412px) {
   .card {
     padding: 4rem 1rem 0rem 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    padding: 4rem 1rem 0rem 1rem;
+  }
+  .right {
+    padding-top: 0rem;
+  }
+
+  #icon2 {
+    position: absolute;
+    top: 110px;
+    right: 48px;
+  }
+  #icon3 {
+    position: absolute;
+    top: 177px;
+    right: 48px;
+  }
+  #icon4 {
+    position: absolute;
+    top: 244px;
+    right: 48px;
+  }
+}
+@media (min-width: 1280px) {
+  #icon3 {
+    position: absolute;
+    top: 183px;
+    right: 48px;
+  }
+  #icon4 {
+    position: absolute;
+    top: 255px;
+    right: 48px;
   }
 }
